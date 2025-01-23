@@ -1,6 +1,6 @@
 ##### Project Title
 ## KhanaPina ( DishBook )
-
+Social Food network web application
 
 ##### Database Setup
 To create the database, run the following SQL script:
