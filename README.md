@@ -1,5 +1,7 @@
 ##### Project Title
-## KhanaPina ( DishBook )
+<h1 align="center">
+KhanaPina ( DishBook )
+</h1>
 Social Food network web application
 
 ##### Database Overview
@@ -16,7 +18,11 @@ To create the database, run the following SQL script:
 
 ##### Run Application
 To create run the backend, execute the following commands inside project directory :
+
 ``` cd backend ```
+
 ``` npm i ```
+
  update .env file configurations 
+
 ``` npm run dev ```
