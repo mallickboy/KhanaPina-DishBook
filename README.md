@@ -17,12 +17,20 @@ To create the database, run the following SQL script:
 
 
 ##### Run Application
-To create run the backend, execute the following commands inside project directory :
+To run the backend, execute the following commands inside project directory :
 
 ``` cd backend ```
 
 ``` npm i ```
 
  update .env file configurations 
+
+``` npm run dev ```
+
+To run the frontend, execute the following commands inside project directory :
+
+``` cd frontend ```
+
+``` npm i ```
 
 ``` npm run dev ```
