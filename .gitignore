@@ -1,0 +1,56 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database and Sequelize files
+backend/src/db/*.sqlite
+backend/src/db/*.sqlite3
+backend/src/db/migrations/
+backend/src/db/seeders/
+
+# Build and temporary files
+dist/
+build/
+tmp/
+.cache/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Operating system files
+Thumbs.db
+desktop.ini
+
+# Git-related files
+!.gitignore
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+
+# Backend dependencies and temp files
+backend/node_modules/
+backend/src/config/*.json
+
+# Public folder in case it contains generated files
+backend/src/public/
+
+# Ignore all .env files except the one in backend
+*.env
+!backend/.env
+
+# Documentation build (optional, remove if not applicable)
+docs/build/
+
+# all python files used by me
+*.ipynb
+*.py
